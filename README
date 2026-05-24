@@ -1,0 +1,228 @@
+# 📊 Business Intelligence Sales Dashboard
+
+End-to-end Business Intelligence and Sales Analytics project developed with Python, Pandas, SQLite, SQL and Power BI.
+
+This project simulates a real-world BI workflow, including:
+
+- Data extraction and preprocessing
+- Feature engineering
+- SQL analytics
+- KPI generation
+- Revenue analysis
+- Customer analytics
+- Product analytics
+- Geographic analytics
+- Automated chart generation
+- Power BI dashboard integration
+
+---
+
+# 🚀 Technologies Used
+
+- Python
+- Pandas
+- SQLite
+- SQL
+- Matplotlib
+- Power BI
+- CSV
+- Data Analysis
+- Business Intelligence
+
+---
+
+# 📂 Project Structure
+
+```bash
+Business-Intelligence-Sales-Dashboard/
+│
+├── dados/
+│   ├── superstore_sales.csv
+│   └── sales_clean.csv
+│
+├── dashboard/
+│
+├── graficos/
+│   ├── monthly_growth.png
+│   ├── revenue_by_category.png
+│   ├── revenue_by_month.png
+│   ├── revenue_by_state.png
+│   ├── top_customers.png
+│   └── top_products.png
+│
+├── queries/
+│   ├── total_revenue.sql
+│   ├── revenue_by_month.sql
+│   ├── revenue_by_category.sql
+│   ├── top_products.sql
+│   └── top_customers.sql
+│
+├── sales_analysis.py
+├── sales_analytics.db
+├── README.md
+└── LICENSE
+```
+
+---
+
+# 📊 Features
+
+## ✔ Data Cleaning and Preprocessing
+
+- Datetime conversion
+- Null validation
+- Data normalization
+- Dataset preparation
+
+---
+
+## ✔ Feature Engineering
+
+Creates analytical features such as:
+
+- Year
+- Month
+- Month Name
+- Revenue KPIs
+- Temporal metrics
+
+---
+
+## ✔ SQL Analytics
+
+Uses modular SQL queries for:
+
+- Revenue analysis
+- Product analysis
+- Customer analysis
+- KPI generation
+- Business metrics
+
+---
+
+## ✔ Revenue Analytics
+
+Performs exploratory business analysis including:
+
+- Revenue by month
+- Revenue growth
+- Revenue by category
+- Revenue by state
+- Top products
+- Top customers
+
+---
+
+## ✔ Data Visualization
+
+Automatically generates analytical charts using Matplotlib.
+
+---
+
+## ✔ Power BI Integration
+
+The cleaned dataset can be directly connected to Power BI dashboards for:
+
+- Interactive filters
+- Executive dashboards
+- Dynamic analytics
+- Business monitoring
+
+---
+
+# 📈 Main Insights
+
+## 📅 Revenue Growth Patterns
+
+Monthly growth analysis identifies seasonal fluctuations and business expansion periods.
+
+---
+
+## 🌎 Geographic Revenue Distribution
+
+Some states concentrate significantly higher revenue generation.
+
+---
+
+## 📦 Product Concentration
+
+A small group of products represents a major portion of total sales.
+
+---
+
+## 👥 Customer Revenue Concentration
+
+Top customers contribute disproportionately to total business revenue.
+
+---
+
+# 📤 Generated Files
+
+The project automatically generates:
+
+```bash
+graficos/monthly_growth.png
+graficos/revenue_by_category.png
+graficos/revenue_by_month.png
+graficos/revenue_by_state.png
+graficos/top_customers.png
+graficos/top_products.png
+```
+
+---
+
+# 🧠 Skills Demonstrated
+
+- Business Intelligence
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- SQL Analytics
+- Feature Engineering
+- Data Storytelling
+- Data Visualization
+- KPI Analysis
+- Revenue Analytics
+- Temporal Analysis
+- Geographic Analytics
+- SQLite Integration
+- Query Modularization
+- Analytical Pipelines
+
+---
+
+# ▶️ How to Run
+
+## Install dependencies
+
+```bash
+pip install pandas matplotlib
+```
+
+---
+
+## Run the project
+
+```bash
+py sales_analysis.py
+```
+
+---
+
+# 📌 Future Improvements
+
+- Real-time dashboard updates
+- Automated reporting
+- Predictive sales analysis
+- Machine Learning integration
+- Interactive executive dashboards
+- KPI monitoring systems
+- API integrations
+- Advanced Power BI analytics
+
+---
+
+# 👨‍💻 Author
+
+Daniel Nascimento
+
+[LinkedIn](https://www.linkedin.com/in/daniel-nascimento-2729941a8/)
